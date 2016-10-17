@@ -8,5 +8,7 @@ class Bulk_item:public Item_base{
 	private:
 		size_t min_qty;
 		double discount;
+	protected:
+		string nothing;
 };
 #endif
